@@ -251,7 +251,8 @@
 
 
 	<!--Contact Start-->
-	<form name="contact" method="post" data-netlify-recaptcha="true" data-netlify="true" onSubmit="submit">
+	<form name="contact" method="post"  data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
+		<input class="d-none" name="bot-field">
 		<table id="contact" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
 		<tr>
 			<td>
